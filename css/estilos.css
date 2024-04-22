@@ -48,7 +48,7 @@ body{
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #fff; 
     text-align: center;
     padding: 20px;
     font-size: 90%;
@@ -57,8 +57,13 @@ footer {
 @media screen and (max-width: 800px) {
   .column-6{
     width: 30%;
+    float: left;
+    padding: 20%;
   }
   .column-8{
+    width: 30%;
+  }
+  .footer{
     width: 30%;
   }
 }
