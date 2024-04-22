@@ -1,0 +1,64 @@
+html{
+    font-size: 12px;
+}
+body{
+    margin: 0
+}
+.foto {
+    background-image: url(https://cloud10.todocoleccion.online/cine-posters-carteles/tc/2024/02/08/18/461170687.jpg);
+    width: 100%;
+    height: 90vh;
+    color:black;
+    background-size: scale;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    }
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.estilos{
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    }
+.column-6{
+        width: 18%;
+        padding: 40px;
+        font-size: 30px;
+    }
+   
+.column-8 {
+        width: 40%;
+        padding: 40px;
+        font-size: 30px;}
+        
+.titulo{
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 90%;
+}
+
+@media screen and (max-width: 800px) {
+  .column-6{
+    width: 30%;
+  }
+  .column-8{
+    width: 30%;
+  }
+}
